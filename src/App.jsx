@@ -1,9 +1,10 @@
 import "./App.css";
+import TopHeader from "./components/TopHeader";
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl text-blue-800">Hi</h1>
+      <TopHeader />
     </>
   );
 }
