@@ -10,17 +10,6 @@ export default function Navbar() {
         <Link className="hover:text-black">Services</Link>
         <Link className="hover:text-black">Contact</Link>
       </ul>
-      <Button
-        style={{
-          background: "white",
-          color: "black",
-          padding: "8px",
-          borderRadius: "1000px",
-          marginTop: "5px",
-        }}
-      >
-        720-426-8745
-      </Button>
     </nav>
   );
 }
