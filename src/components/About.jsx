@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function About() {
   return (
     <section className="max-w-6xl bg-gray-100 ml-auto mr-auto">
@@ -24,6 +26,7 @@ export default function About() {
               orci nulla pellentesque dignissim.Magna sit amet purus gravida. At
               elementum eu facilisis sed odio morbi.
             </p>
+            <Button>Contact Us Today</Button>
           </div>
           <img
             src="images/heating.webp"
