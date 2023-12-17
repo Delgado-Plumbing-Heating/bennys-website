@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-col items-center justify-center mt-20 text-4xl font-serif">
+    <section className="flex flex-col items-center justify-center mt-10 text-4xl font-serif">
       <div className="flex flex-col-reverse sm:flex-row">
         <div className="max-w-2xl ml-5 mt-10">
           <h2 className="text-2xl font-bold mb-4">Our Promise</h2>
@@ -26,7 +26,7 @@ export default function About() {
         </div>
         <img
           src="images/heating.webp"
-          className="md:max-w-sm mt-20 sm:mt-0 sm:ml-12"
+          className="md:max-w-sm sm:ml-12 m-4 mt-12"
           alt="Heating"
         />
       </div>
