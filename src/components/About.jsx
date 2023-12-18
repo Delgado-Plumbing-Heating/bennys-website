@@ -1,8 +1,6 @@
-import Button from "./Button";
-
 export default function About() {
   return (
-    <section className="max-w-6xl bg-gray-100 ml-auto mr-auto">
+    <section className="max-w-7xl bg-gray-100 ml-auto mr-auto p-10 mt-10">
       <div className="flex flex-col items-center justify-center mt-10 text-4xl font-serif">
         <div className="flex flex-col-reverse sm:flex-row">
           <div className="max-w-2xl ml-5 mt-10" id="about">
@@ -26,7 +24,6 @@ export default function About() {
               orci nulla pellentesque dignissim.Magna sit amet purus gravida. At
               elementum eu facilisis sed odio morbi.
             </p>
-            <Button>Contact Us Today</Button>
           </div>
           <img
             src="images/heating.webp"

@@ -3,6 +3,7 @@ import TopHeader from "./components/TopHeader";
 import SecondHeader from "./components/SecondHeader";
 import MainImage from "./components/MainImage";
 import About from "./components/About";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <SecondHeader />
       <MainImage />
       <About />
+      <Services />
     </>
   );
 }
