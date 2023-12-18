@@ -2,7 +2,7 @@ export default function MainImage() {
   return (
     <div className="mt-10 max-w-6xl mx-auto relative">
       <img src="images/tub.jpg" className="w-full" alt="Bathtub" />
-      <div className="md:absolute inset-10  md:inset-24 md:left-14 md:max-w-md resize text-2xl font-sans rounded p-10 text-blue-900 bg-white sm:mt-10 h-min">
+      <div className="md:absolute inset-10  md:inset-36 md:left-14 md:max-w-md resize text-2xl font-sans rounded p-10 text-blue-900 bg-white h-min">
         Since 2019, our talented team works hard every day to provide the best
         services for our clients. We customize our offerings based on specific
         needs, so get in touch today to receive an initial quote.

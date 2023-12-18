@@ -5,7 +5,7 @@ export default function About() {
     <section className="max-w-6xl bg-gray-100 ml-auto mr-auto">
       <div className="flex flex-col items-center justify-center mt-10 text-4xl font-serif">
         <div className="flex flex-col-reverse sm:flex-row">
-          <div className="max-w-2xl ml-5 mt-10">
+          <div className="max-w-2xl ml-5 mt-10" id="about">
             <h2 className="text-2xl font-bold mb-4">Our Promise</h2>
             <p className="text-xl">
               Fast, efficient, and honest, Delgado Plumbing has become a
