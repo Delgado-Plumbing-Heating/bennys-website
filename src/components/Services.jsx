@@ -39,12 +39,24 @@ export default function Services() {
         <Reviews
           imageUrl="images/customer1.jpg"
           name="Hellen Smith"
-          review='"Benny did a great job in my master bedroom. I had an emergency and he came right away"'
+          review='"Benny did a great job in my master bathroom. I had an emergency and he came right away!"'
           location="Denver, CO"
+        />
+
+        <Reviews
+          imageUrl="images/customer2.jpg"
+          name="Lucas Hall"
+          review='"Coming from out of town with limited options. Benny was able to work with me for an affordable price."'
+          location="Arvada, CO"
+        />
+
+        <Reviews
+          imageUrl="images/customer3.jpg"
+          name="Devan Miller"
+          review='"Benny did a great job in my kitchen. Had a linking sink and he took care of it very fast."'
+          location="Aurora, CO"
         />
       </section>
     </>
   );
 }
-
-// <section className="max-w-lg flex items-center justify-center flex-row mt-10 gap-10">
