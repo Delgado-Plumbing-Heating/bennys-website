@@ -1,4 +1,5 @@
 import Images from "./Images";
+import Reviews from "./Reviews";
 
 export default function Services() {
   return (
@@ -34,7 +35,16 @@ export default function Services() {
         </div>
 
         <Images />
+
+        <Reviews
+          imageUrl="images/customer1.jpg"
+          name="Hellen Smith"
+          review='"Benny did a great job in my master bedroom. I had an emergency and he came right away"'
+          location="Denver, CO"
+        />
       </section>
     </>
   );
 }
+
+// <section className="max-w-lg flex items-center justify-center flex-row mt-10 gap-10">
