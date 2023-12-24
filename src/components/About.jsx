@@ -1,10 +1,10 @@
 export default function About() {
   return (
-    <section className="max-w-7xl bg-gray-100 ml-auto mr-auto p-10 mt-10">
-      <div className="flex flex-col items-center justify-center mt-10 text-4xl font-serif">
-        <div className="flex flex-col-reverse sm:flex-row">
-          <div className="max-w-2xl ml-5 mt-10" id="about">
-            <h2 className="text-2xl font-bold mb-4">Our Promise</h2>
+    <section className="max-w-7xl bg-white ml-auto mr-auto mt-10 rounded-lg">
+      <div className="flex flex-col items-center justify-center text-4xl font-serif">
+        <div className="flex flex-col-reverse lg:flex-row">
+          <div className="max-w-2xl mt-10" id="about">
+            <h2 className="text-2xl font-bold mb-5">Our Promise</h2>
             <p className="text-xl">
               Fast, efficient, and honest, Delgado Plumbing has become a
               reputable and well-known Plumbing Service. Our team is up for

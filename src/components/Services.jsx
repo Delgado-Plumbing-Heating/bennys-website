@@ -4,12 +4,12 @@ export default function Services() {
   return (
     <>
       <section
-        className=" bg-gray-100 max-w-7xl ml-auto mr-auto mt-20 mb-20 p-5"
+        className=" bg-white max-w-7xl ml-auto mr-auto mt-20 ml-5 mb-20 p-10 rounded-lg"
         id="services"
       >
         <div className="flex flex-col ml-5">
           <h3
-            className="text-black text-2xl font-bold mt-5
+            className="text-black text-2xl font-bold 
             "
           >
             Services

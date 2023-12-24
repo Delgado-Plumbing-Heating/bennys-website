@@ -4,11 +4,11 @@ export default function MainImage() {
   return (
     <div className="mt-10 max-w-6xl mx-auto relative">
       <img src="images/tub.jpg" className="w-full ease-out" alt="Bathtub" />
-      <div className="mt-10 flex justify-center gap-5">
+      <div className="mt-10 flex justify-center flex-col lg:flex-row gap-5">
         <VideoPlayer videoId="wcl2ECpmpD0" />
         <VideoPlayer videoId="MIR-vRlndwY" />
       </div>
-      <div className="md:absolute inset-10  md:inset-36 nmd:left-14 md:max-w-md resize text-2xl font-sans rounded p-10 text-blue-900 bg-white h-min">
+      <div className="md:absolute sm:absolute sm:w-50 inset-10  md:inset-36 nmd:left-14 md:max-w-md resize text-2xl font-sans rounded p-10 text-blue-900 bg-white h-min">
         Since 2019, our talented team works hard every day to provide the best
         services for our clients. We customize our offerings based on specific
         needs, so get in touch today to receive an initial quote.
