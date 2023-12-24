@@ -1,6 +1,6 @@
 export default function Images() {
   return (
-    <div className="max-w-7xl ml-auto mr-auto">
+    <div className="max-w-7xl mr-auto sm:ml-auto sm:mr-auto">
       <div className="grid col-span-1 lg:grid-cols-3 ml-5 mt-10 gap-5">
         <img
           src="images/sink3.webp"

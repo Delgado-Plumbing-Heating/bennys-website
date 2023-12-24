@@ -4,7 +4,7 @@ export default function Services() {
   return (
     <>
       <section
-        className=" bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto mt-20 ml-5 mb-20 p-10 rounded-lg"
+        className=" bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto mt-10 ml-5 mb-20 p-10 rounded-lg"
         id="services"
       >
         <div className="flex flex-col ml-5">
