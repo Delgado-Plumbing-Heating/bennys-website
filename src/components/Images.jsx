@@ -1,7 +1,7 @@
 export default function Images() {
   return (
     <div className="max-w-7xl ml-auto mr-auto">
-      <div className="flex lg:flex-row lg:max-w-sm sm:flex-col max-w-md ml-5 mt-10 gap-5">
+      <div className="grid col-span-1 lg:grid-cols-3 ml-5 mt-10 gap-5">
         <img
           src="images/sink3.webp"
           alt="Image of a sink working properly"
@@ -17,7 +17,27 @@ export default function Images() {
           alt="Image of a marble bathroom sink"
           className="hover:scale-105 transition duration-500"
         />
+
+        <img
+          src="images/sink4.jpg"
+          alt="Image of a sink"
+          className="hover:scale-105 transition duration-500 sink-tools "
+        />
+
+        <img
+          src="images/tools.jpg"
+          alt="Image of a sink"
+          className="hover:scale-105 transition duration-500 sink-tools"
+        />
+
+        <img
+          src="images/sink2.webp"
+          alt="Image of a sink"
+          className="hover:scale-105 transition duration-500"
+        />
       </div>
     </div>
   );
 }
+
+// flex flex-col md:flex-col lg:flex-row  lg:max-w-sm max-w-md
