@@ -11,14 +11,6 @@
 /*contact form custom styles*/
 .input-styles {
   background-color: lightgrey;
-  padding: 8px;
+  padding: 12px;
   outline: none;
-}
-
-label {
-  color: black;
-}
-
-input {
-  color: black;
 }

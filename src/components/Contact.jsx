@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 export default function Contact() {
   const [firstName, setFirstName] = useState("");
@@ -29,52 +30,55 @@ export default function Contact() {
   return (
     <>
       <form
-        className="bg-white w-full max-w-2xl lg:max-w-7xl ml-auto mr-auto p-8 rounded-md mt-20 font-serif"
+        className="bg-white w-full max-w-2xl lg:max-w-7xl ml-auto mr-auto p-8 rounded-md mt-10 font-serif"
         id="contact"
         onSubmit={successful}
       >
         <h2 className="text-4xl text-center mb-10">Contact Me</h2>
 
-        <div className=" bg-blue-600 flex flex-col items-center justify-center gap-10">
-          <label className="flex gap-4 mt-10 ">
-            First Name:
+        <div className=" bg-blue-600 flex flex-col items-center justify-center gap-10 font-sans">
+          <p className="mt-10 text-lg">
+            Please fill out the information below:
+          </p>
+          <label className="flex gap-4">
             <input
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="input-styles lg:w-96"
+              className="input-styles w-80 lg:w-96 "
+              placeholder="First Name"
             />
           </label>
 
           <label className="flex gap-5 ">
-            Last Name:
             <input
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="input-styles lg:w-96"
+              className="input-styles w-80 lg:w-96"
+              placeholder="Last Name"
             />
           </label>
 
           <label className="flex gap-12 ">
-            E-mail:
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="input-styles lg:w-96"
+              className="input-styles w-80 lg:w-96"
+              placeholder="Email Address"
             />
           </label>
 
           <label className="flex gap-2">
-            Cell Number:
             <input
               value={[phoneNumber]}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              className="input-styles lg:w-96"
+              className="input-styles w-80 lg:w-96"
+              placeholder="Phone Number"
             />
           </label>
 
           {error && <p className="text-white">{error}</p>}
 
-          <button className="bg-black p-2 text-white rounded-full text-2xl w-40 lg:w-80 ml-10 mt-5 mb-10 hover:text-gray-300">
+          <button className="bg-black p-2 text-white rounded-full text-2xl w-40 lg:w-80 mt-5 mb-10 hover:text-gray-300">
             Submit
           </button>
         </div>
