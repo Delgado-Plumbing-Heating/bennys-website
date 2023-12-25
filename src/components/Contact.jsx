@@ -84,9 +84,9 @@ export default function Contact() {
             />
           </label>
 
-          {error && <p className="text-white">{error}</p>}
+          {error && <p className="text-white p-5 text-center">{error}</p>}
 
-          <button className="bg-black p-2 text-white rounded-full text-2xl w-40 lg:w-80 mt-5 mb-10 hover:text-gray-300">
+          <button className="bg-black p-2 text-white rounded-full text-2xl w-40 lg:w-80 mb-10 hover:text-gray-300">
             Submit
           </button>
         </div>
