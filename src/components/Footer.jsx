@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
         <p>Delgado Services Inc.</p>
         <p>720-877-3362</p>
-        <p>delgado.services@gmail.com</p>
+        <p>delgadosplumbing2019@gmail.com</p>
       </div>
     </div>
   );
