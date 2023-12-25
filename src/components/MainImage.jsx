@@ -10,7 +10,7 @@ export default function MainImage() {
   return (
     <div className="mt-10 max-w-6xl mx-auto relative">
       <img src="images/tub.jpg" className="w-full ease-out" alt="Bathtub" />
-      <div className="mt-10 flex justify-center flex-col lg:flex-row gap-5">
+      <div className="mt-10 flex items center justify-center flex-col p-10 lg:ml-0 lg:flex-row gap-10 lg:gap-28">
         <VideoPlayer videoId="wcl2ECpmpD0" />
         <VideoPlayer videoId="MIR-vRlndwY" />
       </div>
