@@ -3,10 +3,13 @@ import YouTube from "react-youtube";
 
 export default function VideoPlayer({ videoId }) {
   const opts = {
-    height: "320px",
-    width: "340px",
-    padding: "5px",
+    height: "390px",
+    width: "345px",
   };
 
-  return <YouTube videoId={videoId} opts={opts} />;
+  return (
+    <div>
+      <YouTube videoId={videoId} opts={opts} />
+    </div>
+  );
 }

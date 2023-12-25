@@ -1,3 +1,5 @@
+import VideoPlayer from "./VideoPlayer";
+
 export default function About() {
   return (
     <section className="bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto mt-10 ml-5  rounded-lg">
@@ -31,6 +33,11 @@ export default function About() {
             alt="Heating"
           />
         </div>
+      </div>
+
+      <div className="mt-10 flex items-center justify-center flex-wrap flex-col lg:flex-row gap-20">
+        <VideoPlayer videoId="wcl2ECpmpD0" />
+        <VideoPlayer videoId="MIR-vRlndwY" />
       </div>
     </section>
   );
