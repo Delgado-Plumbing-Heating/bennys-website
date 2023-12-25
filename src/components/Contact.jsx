@@ -6,11 +6,23 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
 
+  const successful = () => {
+    alert(
+      `Thank you ${firstName}, your contact form has been submitted! You will be contacted between 1-2 days on the email address provided ${email}.`
+    );
+
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setPhoneNumber("");
+  };
+
   return (
     <>
       <form
         className="bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto p-5 font-serif"
         id="contact"
+        onSubmit={successful}
       >
         <h2 className="text-4xl text-center mb-10">Contact Me</h2>
 
