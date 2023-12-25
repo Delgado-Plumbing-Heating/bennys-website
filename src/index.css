@@ -3,6 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/*custom styles for 2 of the images in the grid*/
 .sink-tools {
   width: 480px;
+}
+
+/*contact form custom styles*/
+.input-styles {
+  background-color: white;
+  padding: 8px;
+  outline: none;
+}
+
+label {
+  color: white;
+}
+
+input {
+  color: black;
 }
