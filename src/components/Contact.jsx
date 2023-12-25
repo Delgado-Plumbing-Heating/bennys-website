@@ -20,7 +20,7 @@ export default function Contact() {
   return (
     <>
       <form
-        className="bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto p-5 font-serif"
+        className="bg-white w-full max-w-lg lg:max-w-7xl ml-auto mr-auto p-8 rounded-md mt-20 font-serif"
         id="contact"
         onSubmit={successful}
       >
@@ -32,7 +32,7 @@ export default function Contact() {
             <input
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="input-styles w-96"
+              className="input-styles lg:w-96"
             />
           </label>
 
@@ -41,7 +41,7 @@ export default function Contact() {
             <input
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="input-styles w-96 "
+              className="input-styles lg:w-96"
             />
           </label>
 
@@ -50,7 +50,7 @@ export default function Contact() {
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="input-styles w-96"
+              className="input-styles lg:w-96"
             />
           </label>
 
@@ -59,11 +59,11 @@ export default function Contact() {
             <input
               value={[phoneNumber]}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              className="input-styles w-96"
+              className="input-styles lg:w-96"
             />
           </label>
 
-          <button className="bg-black p-2 text-white rounded-full text-2xl w-80 ml-10 mt-5 mb-10 hover:text-gray-300">
+          <button className="bg-black p-2 text-white rounded-full text-2xl w-40 lg:w-80 ml-10 mt-5 mb-10 hover:text-gray-300">
             Submit
           </button>
         </div>
