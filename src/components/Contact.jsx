@@ -52,7 +52,7 @@ export default function Contact() {
             <input
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="input-styles w-80 lg:w-96 "
+              className="input-styles w-50 lg:w-96 "
               placeholder="First Name"
             />
           </label>
@@ -61,7 +61,7 @@ export default function Contact() {
             <input
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="input-styles w-80 lg:w-96"
+              className="input-styles w-50 lg:w-96"
               placeholder="Last Name"
             />
           </label>
@@ -70,7 +70,7 @@ export default function Contact() {
             <input
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="input-styles w-80 lg:w-96"
+              className="input-styles w-50 lg:w-96"
               placeholder="Email Address"
             />
           </label>
@@ -79,7 +79,7 @@ export default function Contact() {
             <input
               value={[phoneNumber]}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              className="input-styles w-80 lg:w-96"
+              className="input-styles w-50 lg:w-96"
               placeholder="Phone Number"
             />
           </label>
