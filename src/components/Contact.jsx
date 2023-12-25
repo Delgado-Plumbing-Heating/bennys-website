@@ -8,7 +8,10 @@ export default function Contact() {
 
   return (
     <>
-      <form className="bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto p-5 font-serif">
+      <form
+        className="bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto p-5 font-serif"
+        id="contact"
+      >
         <h2 className="text-4xl text-center mb-10">Contact Me</h2>
 
         <div className="flex flex-col items-center bg-blue-900  justify-center gap-10">

@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link className="hover:text-black" to="#services">
           Services
         </Link>
-        <Link className="hover:text-black" to="contact">
+        <Link className="hover:text-black" to="#contact">
           Contact
         </Link>
       </ul>
