@@ -8,12 +8,18 @@ export default function Contact() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [error, setError] = useState(null);
 
-  const successful = () => {
-    if (firstName.length === 0 || lastName.length === 0) {
-      setError("You must enter a username and password, please try again");
+  const successful = (event) => {
+    event.preventDefault();
+    if (
+      firstName.length === 0 ||
+      lastName.length === 0 ||
+      phoneNumber.length === 0 ||
+      email.length === 0
+    ) {
+      setError("All information must be provided, please try again");
       return;
-    } else if (username.length < 4 || password < 4) {
-      setError("Username and Password needs to be more than 4 characters");
+    } else if (firstName.length < 2 || lastName < 2) {
+      setError("First and Last Name needs to be more than 2 characters");
       return;
     }
 
@@ -25,12 +31,14 @@ export default function Contact() {
     setLastName("");
     setEmail("");
     setPhoneNumber("");
+
+    setError("");
   };
 
   return (
     <>
       <form
-        className="bg-white w-full max-w-2xl lg:max-w-7xl ml-auto mr-auto p-8 rounded-md mt-10 font-serif"
+        className="bg-white w-full max-w-2xl lg:max-w-7xl ml-auto mr-auto p-8 rounded-md mt-10 font-serif mb-32"
         id="contact"
         onSubmit={successful}
       >
