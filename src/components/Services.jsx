@@ -8,7 +8,7 @@ export default function Services() {
         className=" bg-white sm:max-w-2xl sm:p-10 lg:max-w-7xl ml-auto mr-auto mt-10 ml-5 mb-20 p-10 rounded-lg"
         id="services"
       >
-        <div className="flex flex-col ml-5">
+        <section className="flex flex-col ml-5">
           <h3
             className="text-black text-2xl font-bold 
             "
@@ -32,7 +32,7 @@ export default function Services() {
             dignissim cras tincidunt. Nibh tellus molestie nunc non blandit
             massa enim. Gravida cum sociis natoque penatibus et magnis.
           </p>
-        </div>
+        </section>
 
         <Images />
 

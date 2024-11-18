@@ -1,7 +1,7 @@
 export default function Images() {
   return (
-    <div className="max-w-7xl mr-auto sm:ml-auto sm:mr-auto">
-      <div className="grid col-span-1 lg:grid-cols-3 ml-5 mt-10 gap-5">
+    <section className="max-w-7xl mr-auto sm:ml-auto sm:mr-auto">
+      <section className="grid col-span-1 lg:grid-cols-3 ml-5 mt-10 gap-5">
         <img
           src="images/sink3.webp"
           alt="Image of a sink working properly"
@@ -35,9 +35,7 @@ export default function Images() {
           alt="Image of a sink"
           className="hover:scale-105 transition duration-500"
         />
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }
-
-// flex flex-col md:flex-col lg:flex-row  lg:max-w-sm max-w-md

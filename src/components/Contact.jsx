@@ -44,7 +44,7 @@ export default function Contact() {
       >
         <h2 className="text-4xl text-center mb-10">Contact Me</h2>
 
-        <div className=" bg-blue-600 flex flex-col items-center justify-center gap-10 font-sans">
+        <section className=" bg-blue-600 flex flex-col items-center justify-center gap-10 font-sans">
           <p className="mt-10 text-lg">
             Please fill out the information below:
           </p>
@@ -89,7 +89,7 @@ export default function Contact() {
           <button className="bg-black p-2 text-white rounded-full text-2xl w-40 lg:w-80 mb-10 hover:text-gray-300">
             Submit
           </button>
-        </div>
+        </section>
       </form>
     </>
   );
